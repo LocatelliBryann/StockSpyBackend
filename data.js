@@ -1,6 +1,5 @@
 // estoquespy-backend/data.js
 
-// Produtos em memória só para teste (pode trocar pelos seus depois)
 export const products = [
   {
     id: "1",
@@ -13,7 +12,7 @@ export const products = [
     supplier: "Confecções Lima",
     registeredBy: "Maria Silva",
     registeredAt: "2025-01-20",
-    IDRFID: "417370A2",
+    IDRFID: "417370A2", // <--- Tag 1
   },
   {
     id: "2",
@@ -26,7 +25,20 @@ export const products = [
     supplier: "Jeans Brasil",
     registeredBy: "João Santos",
     registeredAt: "2025-01-22",
-    IDRFID: "05FFEEDDCC",
+    IDRFID: "2EEB47AF", // <--- Tag 2
+  },
+  {
+    id: "3",
+    name: "Jaqueta de Couro",
+    category: "Casacos",
+    size: "G",
+    color: "Preto",
+    quantity: 25,
+    price: 250.00,
+    supplier: "Couro Fino",
+    registeredBy: "Ana Souza",
+    registeredAt: "2025-02-10",
+    IDRFID: "E152F804", // <--- Tag 3
   },
 ];
 
